@@ -1,0 +1,107 @@
+div {
+    border-radius: 5px;
+}
+
+#header {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    margin-top: -20px;
+    height: 60px;
+    background-color: #000000;
+    margin-bottom: 10px;
+}
+
+#name {
+    float:left;
+    margin-left: 10px;
+    padding-top: 10px;
+
+    font-family: 'Century Gothic', sans-serif;
+    color: #ffffff;
+}
+
+#email {
+    float:right;
+    margin-right: 10px;
+    padding-top: 5px;
+
+    font-family: 'Century Gothic', sans-serif;
+    color: #ffffff;
+}
+
+@media (max-width: 450px) {
+    .responsive_text {
+    font-size: 12px;
+}
+}
+
+@media (min-width: 451px) and (max-width: 750px) {
+    .responsive_text{
+    font-size: 16px;
+}
+}
+
+
+
+
+h4 {
+    margin-left: 5px;
+    margin-bottom: 15px;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.all {
+    float: left;
+    height: 100%;
+}
+
+.right p {
+    margin-left: 5px;
+    margin-right: 5px;
+    /*margin-top: -10px;*/
+    font-family: Garamond, serif;
+    color: #000000;
+    min-width: 50%;
+}
+
+li {
+    list-style-type: square;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+body {
+    overflow-x: scroll;
+    min-width: 600px;
+}
+
+.left {
+    position: relative;
+    float: left;
+    margin-top: 50px;
+    width: 10%;
+    height: 100%;
+    min-width: 100px;
+
+        background-color: #000000;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    font-family: 'Century Gothic', sans-serif;
+    text-align: center;
+}
+
+.right {
+    position: center;
+    float: right;
+    margin-top: 50px;
+    margin-left: 10%;
+    min-width: 400px;
+    margin-right: 25%;
+    width: 50%;
+    
+    background-color: #F4EBC3;
+    margin-bottom: 10px;
+}
